@@ -1,6 +1,6 @@
 # Modulo1
 
-**TODO: Add description**
+This module is responsible to sum the elements from a list
 
 ## Installation
 
@@ -19,3 +19,23 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/modulo_1>.
 
+## Running
+
+To run the project, you can use the command below
+
+```bash
+$ iex -S mix
+```
+
+To Access the functions created in the project
+
+```bash
+iex> Modulo1.callSum([]) # will return 0
+iex> Modulo1.callSum([1, 2, 3]) # will return 6 (1 + 2 + 3)
+```
+
+To recompile the code without exiting the iex
+
+```bash
+iex> recompile
+```
